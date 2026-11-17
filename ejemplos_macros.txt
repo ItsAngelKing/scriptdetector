@@ -1,0 +1,55 @@
+EJEMPLOS DE MACROS
+==================
+
+Las macros se escriben en script.conf separando las teclas con +.
+Se envian una sola vez cuando el indicador entra en rojo.
+
+Ejemplos para macroRojo:
+
+macroRojo=alt+tab
+Cambia a la siguiente ventana.
+
+macroRojo=alt+f4
+Cierra la ventana activa. Usala con cuidado: puede cerrar programas o perder trabajo sin guardar.
+
+macroRojo=ctrl+shift+esc
+Abre el Administrador de tareas.
+
+macroRojo=win+r
+Abre la ventana Ejecutar.
+
+macroRojo=ctrl+s
+Envia Ctrl+S a la ventana activa.
+
+macroRojo=f5
+Envia F5 a la ventana activa.
+
+macroRojo=esc
+Envia Escape a la ventana activa.
+
+Para desactivar la macro sin eliminar la opcion:
+
+macroRojo=
+
+Para desactivar todas las macros conservando la combinacion configurada:
+
+macrosActivas=false
+
+Para volver a activarlas:
+
+macrosActivas=true
+
+Teclas admitidas:
+
+- Modificadores: ctrl, control, alt, menu, shift, mayus, win, windows, lwin.
+- Letras: a-z.
+- Numeros: 0-9.
+- Teclas de funcion: f1-f12.
+- Otras: tab, enter, esc, escape, espacio, space, supr, delete, suprimir, retroceso, backspace, inicio, home, fin, end, repag, pageup, avpag, pagedown, izquierda, left, arriba, up, derecha, right, abajo, down.
+
+Ejemplo completo de configuracion:
+
+macroRojo=ctrl+alt+m
+macrosActivas=true
+
+enviarCtrl y notificacionesWindows son opciones independientes de la macro. Las macros envian pulsaciones a la ventana activa; por eso conviene elegir combinaciones con cuidado.
