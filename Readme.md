@@ -1,5 +1,3 @@
-Antes de ejecutar el script, revisa su comportamiento y confirma que tienes autorización para usarlo. Que Microsoft Defender no lo detecte no garantiza que sea seguro.
-	
 Configuración de parámetros de la configuración explicada detalladamente:
 ·limiteRAM:
 	Es el umbral de RAM en MB a partir del cual el indicador se pone rojo. Su valor actual y predeterminado es 7 MB.
